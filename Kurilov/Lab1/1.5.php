@@ -9,7 +9,7 @@
 <?php
 $b = 4;
 $a = $b + 5 ;
-echo "a=$a --- b = $b"
+echo "a= $a - b = $b"
 ?>
 </body>
 </html>

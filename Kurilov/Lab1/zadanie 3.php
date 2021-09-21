@@ -7,9 +7,12 @@
 </head>
 <body>
 <?php
-$a = 10;
-$b = $a--;
-echo "a = $a, b = $b";
+$a=2;
+$b=3;
+$nerav= $a!=$b;
+echo $a," - Первое число","</br>";
+echo $b," - Второе число","</br>";
+echo $nerav," - Неравенство","</br>";
 ?>
 </body>
 </html>
