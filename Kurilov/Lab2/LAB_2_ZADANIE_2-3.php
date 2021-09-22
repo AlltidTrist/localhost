@@ -26,9 +26,9 @@ $auto['opel'] = [
     'doors' => 4,
     'year' => 2007
 ];
-echo 'BMW - ', $auto['bmw']['model'],' - '.$auto['bmw']['speed'],' - '.$auto['bmw']['doors'],' - '.$auto['bmw']['year'],'<br/>';
-echo 'Toyota - ', $auto['toyota']['model'],' - '.$auto['toyota']['speed'],' - '.$auto['toyota']['doors'],' - '.$auto['toyota']['year'],'<br/>';
-echo 'Opel - ', $auto['opel']['model'],' - '.$auto['opel']['speed'],' - '.$auto['opel']['doors'],' - '.$auto['opel']['year'];
+echo 'BMW ', $auto['bmw']['model'],' - '.$auto['bmw']['speed'],' - '.$auto['bmw']['doors'],' - '.$auto['bmw']['year'],'<br/>';
+echo 'Toyota ', $auto['toyota']['model'],' - '.$auto['toyota']['speed'],' - '.$auto['toyota']['doors'],' - '.$auto['toyota']['year'],'<br/>';
+echo 'Opel ', $auto['opel']['model'],' - '.$auto['opel']['speed'],' - '.$auto['opel']['doors'],' - '.$auto['opel']['year'];
 ?>
 </body>
 </html>
