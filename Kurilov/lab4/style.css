@@ -1,0 +1,36 @@
+.zvezda{
+    color: red;
+}
+#stroka{
+    width: 400px;
+}
+.name{
+    margin-bottom: 5px;
+}
+.email{
+    margin-bottom: 5px;
+}
+.phone{
+    margin-bottom: 5px;
+}
+.nametext{
+    margin-right: 50px;
+}
+.phonetext{
+    margin-right: 36px;
+}
+.emailtext{
+    margin-right: 40px;
+}
+.cach{
+    width: 200px;
+}
+.zhiv{
+    width: 100%;
+}
+.chek{
+position: relative;
+}
+#animal{
+margin-right: 10px;
+}
