@@ -1,36 +1,54 @@
 .zvezda{
     color: red;
 }
-#stroka{
-    width: 400px;
+.stroka{
+    margin-left: 8%;
+    width: 30%;
 }
-.name{
-    margin-bottom: 5px;
-}
-.email{
-    margin-bottom: 5px;
-}
-.phone{
-    margin-bottom: 5px;
+.contact{
+    margin-bottom: 10px;
 }
 .nametext{
-    margin-right: 50px;
+    position: absolute;
 }
 .phonetext{
-    margin-right: 36px;
+    position: absolute;
 }
 .emailtext{
-    margin-right: 40px;
+    position: absolute;
 }
 .cach{
-    width: 200px;
-}
-.zhiv{
-    width: 100%;
+    position: absolute;
+    width: 100px;
 }
 .chek{
-position: relative;
+    width: calc(25% - 50px);
+    display: inline-block;
 }
-#animal{
-margin-right: 10px;
+.animal{
+margin-right: 5%;
+}
+.forma{
+    margin-bottom: 10px;
+}
+.sex{
+    position: absolute;
+}
+.age{
+    position: absolute;
+    display: block;
+}
+select{
+    margin-left: 8%;
+    width: 30.8%;
+}
+textarea {
+    margin-left: 8%;
+    width:  30%;
+    height: 50px;
+}
+.button{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 2px;
 }
