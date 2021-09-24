@@ -14,13 +14,13 @@ $capital['Ukraine'] = 'Киев';
 $capital['Italy'] = 'Рим';
 echo $capital['Russia'];
 $naselenie = array(
-        'Russia' => 141,
+    'Russia' => 141,
     'USA' => 304,
     'France' => 63,
     'Ukraine' => 46,
     'Italy' => 59
 );
-echo '<br/> Столица России - '.$capital['Russia'].', Население - '.$naselenie['Russia'].' млн.человек.';
+echo '<br/> Столица России - ' . $capital['Russia'] . ', Население - ' . $naselenie['Russia'] . ' млн.человек.';
 ?>
 </body>
 </html>

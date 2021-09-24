@@ -18,8 +18,8 @@ $auto['audi'] = [
     'year' => '2003',
     'probeg' => 2300
 ];
-echo '<br/> Год BMW -'.$auto['bmw']['year'];
-echo '<br/> Год Audi -'.$auto['audi']['year'];
+echo '<br/> Год BMW -' . $auto['bmw']['year'];
+echo '<br/> Год Audi -' . $auto['audi']['year'];
 ?>
 </body>
 </html>

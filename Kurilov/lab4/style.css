@@ -1,53 +1,67 @@
-.zvezda{
+.zvezda {
     color: red;
 }
-.stroka{
+
+.stroka {
     margin-left: 8%;
     width: 30%;
 }
-.contact{
+
+.contact {
     margin-bottom: 10px;
 }
-.nametext{
+
+.nametext {
     position: absolute;
 }
-.phonetext{
+
+.phonetext {
     position: absolute;
 }
-.emailtext{
+
+.emailtext {
     position: absolute;
 }
-.cach{
+
+.cach {
     position: absolute;
     width: 100px;
 }
-.chek{
+
+.chek {
     width: calc(25% - 50px);
     display: inline-block;
 }
-.animal{
-margin-right: 5%;
+
+.animal {
+    margin-right: 5%;
 }
-.forma{
+
+.forma {
     margin-bottom: 10px;
 }
-.sex{
+
+.sex {
     position: absolute;
 }
-.age{
+
+.age {
     position: absolute;
     display: block;
 }
-select{
+
+select {
     margin-left: 8%;
     width: 30.7%;
 }
+
 textarea {
     margin-left: 8%;
-    width:  30.3%;
+    width: 30.3%;
     height: 50px;
 }
-.button{
+
+.button {
     height: 30px;
     margin-top: 10px;
     margin-left: 2px;

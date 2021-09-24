@@ -8,7 +8,7 @@
 <body>
 <?php
 $d = date('d.m.Y');
-echo 'Сегодня '.$d;
+echo 'Сегодня ' . $d;
 ?>
 </body>
 </html>

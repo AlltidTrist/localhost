@@ -7,12 +7,12 @@
 </head>
 <body>
 <?php
-$dat=date('d.m.Y');
+$dat = date('d.m.Y');
 //Вычисляем текущее время
-$tm=date('h:i:s');
+$tm = date('h:i:s');
 //Вычисляем текущее время
-echo 'Текущая дата:'.$dat.'<hr/>';
-echo 'Текущая дата:'.$tm.'<hr/>';
+echo 'Текущая дата:' . $dat . '<hr/>';
+echo 'Текущая дата:' . $tm . '<hr/>';
 ?>
 </body>
 </html>

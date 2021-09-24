@@ -7,9 +7,9 @@
 </head>
 <body>
 <?php
-$box = array ('Персик','Огурец');
-list($fruit,$vegetable) = $box;
-echo '<br/>'.$fruit.'<br/>'.$vegetable;
+$box = array('Персик', 'Огурец');
+list($fruit, $vegetable) = $box;
+echo '<br/>' . $fruit . '<br/>' . $vegetable;
 ?>
 </body>
 </html>

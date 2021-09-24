@@ -10,7 +10,7 @@
     <h2>Форма заявки на работу в зоопарке</h2>
     <i>Пожалуйста заполните форму. Обязательные поля помечены<span class="zvezda">*</span></i>
 </div>
-<form method="post" enctype="multipart/form-data" >
+<form method="post" enctype="multipart/form-data">
     <div class="forma">
         <fieldset>
             <legend>Контактная информация</legend>
@@ -31,7 +31,7 @@
 </form>
 
 <?php
-echo '<h1>Здравствуйте, ', ($_POST['name']), '! Мы берем на рассмотрение Вашу заявку. Ответ пришлем на Ваш email: ', ($_POST['email']),'<h1>';
+echo '<h1>Здравствуйте, ', ($_POST['name']), '! Мы берем на рассмотрение Вашу заявку. Ответ пришлем на Ваш email: ', ($_POST['email']), '<h1>';
 ?>
 </body>
 </html>

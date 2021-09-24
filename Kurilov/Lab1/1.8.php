@@ -11,7 +11,7 @@ $a = 1;
 $b = 2;
 include '1.8_settings.php';
 $c = $a + $b;
-echo 'Сумма переменных - '.$c
+echo 'Сумма переменных - ' . $c
 ?>
 </body>
 </html>
