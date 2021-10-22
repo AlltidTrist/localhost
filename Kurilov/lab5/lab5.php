@@ -11,7 +11,7 @@
 $path = 'if';
 $tmp_path = 'tmp/';
 // Массив допустимых значений типа файла
-$types = array('image/gif', 'image/png', 'image/jpeg');
+$types = array('image/gif', 'image/png', 'image/jpeg','image/jpg');
 // Максимальный размер файла
 $size = 1024000;
 // Обработка запроса
@@ -89,6 +89,7 @@ function resize($file, $type = 1, $rotate = null, $quality = null)
 // У.
 // Удаляем временный файл
     unlink($tmp_path . $name);
+    return $file['name'];
 }
 
 ?>
@@ -102,7 +103,7 @@ function resize($file, $type = 1, $rotate = null, $quality = null)
         <option value="2">Большое изображение</option>
     </select>
     <br>
-    <label>Поворот</label>
+    <label>Поворот на кол-во градусов:</label>
     <br>
     <input type="text" name="file_rotate">
     <br>
