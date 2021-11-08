@@ -1,6 +1,6 @@
 <?php
 $text = fopen('laba6text.txt','w');
-$text1 = file_get_contents('lab6.php');
+$text1 = file_get_contents('lab6 zad1.php');
 if (fwrite($text,$text1))
     echo "Запись прошла успешно";
 else

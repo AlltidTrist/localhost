@@ -7,10 +7,10 @@
 <body>
 <?php
 // Соединяемся с MySQL
-$link = mysqli_connect("localhost","dkurilov","qSjR22","dkurilov_2isip3");
+$link = mysqli_connect("localhost","root","","kurilov");
 
 // Выполняем запрос к базе данных skgmi
-$resultat = mysqli_query($link, "SELECT * FROM `2isip3`");
+$resultat = mysqli_query($link, "SELECT * FROM `kurilov`");
 
 //Записываем первую запись таблицы в массив $row
 $row = mysqli_fetch_array($resultat);
